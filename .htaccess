@@ -1,0 +1,12 @@
+Options -Indexes
+
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?params=$1
+
+
+
+AddCharset UTF-8 .html
+

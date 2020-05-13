@@ -1,0 +1,60 @@
+
+/* BOOTSTRAP */
+.form-group {
+    float: left;
+}
+.input-group-addon {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin-left: -1px;
+    border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+}
+.modal-header .close {
+	position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.select2-container {
+    padding: 0 !important;
+}
+.select2-container .select2-choice {
+  background: none;
+  border: 0 none;
+  padding: 3px 0 2px 15px;
+  height: 37px;
+  line-height: 2.5;
+}
+.select2-container .select2-choice > .select2-chosen {
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+/* TABLE RESPONSIVE */
+@media (max-width: 992px) {
+
+  .table-responsive table thead {
+    display: none;
+  }
+  .table-responsive table tr {
+    border: 1px solid #dddddd;
+  }
+  .table-responsive table td {
+    border: 0;
+    width: auto !important;
+  }
+  .table-responsive table td{
+    display: block;
+    text-align: center;
+  }
+  .table-responsive > .table > thead > tr > th, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tfoot > tr > td {
+    white-space: normal;
+  }
+  .table-responsive > .table .edit-wrapper {
+    width: 100% !important;
+  }
+
+}
